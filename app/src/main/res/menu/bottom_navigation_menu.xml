@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/crearFragment"
+        android:icon="@drawable/ic_anadir"
+        android:title="Añadir" />
+    <item
+        android:id="@+id/modificarFragment"
+        android:icon="@drawable/ic_cambiar"
+        android:title="Modificar" />
+
+    <item
+        android:id="@+id/eliminarFragment"
+        android:icon="@drawable/ic_eliminar"
+        android:title="Eliminar" />
+
+    <item
+        android:id="@+id/navigation_salir"
+        android:icon="@drawable/ic_salir"
+        android:title="Salir" />
+</menu>
