@@ -114,7 +114,7 @@ public class CrearFragment extends Fragment {
                     }
                 } else {
                     // Mostrar un Toast si la descripción está vacía
-                    Toast.makeText(getContext(), "Por favor, ingrese una descripción válida", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), "Por favor, ingrese una URL de Imagen válida", Toast.LENGTH_SHORT).show();
                 }
             } else {
                 // Mostrar un Toast si el nombre está vacío

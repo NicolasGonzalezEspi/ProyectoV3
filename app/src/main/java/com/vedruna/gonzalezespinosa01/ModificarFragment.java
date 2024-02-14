@@ -90,7 +90,7 @@ public class ModificarFragment extends Fragment {
         // Verificar que al menos uno de los campos de nombre o descripción tenga al menos un carácter
         if (nuevoNombre.isEmpty() || nuevaDescripcion.isEmpty()) {
             // Mostrar un mensaje de error si ambos campos de nombre y descripción están vacíos
-            Toast.makeText(getContext(), "Por favor, ingrese un nombre y una descripción para el producto", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Por favor, ingrese un nombre y una URL de Imagen para el producto", Toast.LENGTH_SHORT).show();
             return;
         }
 

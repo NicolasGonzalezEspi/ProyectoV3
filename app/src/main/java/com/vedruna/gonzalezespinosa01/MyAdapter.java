@@ -3,10 +3,13 @@ package com.vedruna.gonzalezespinosa01;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso; // Importa la clase Picasso para cargar imágenes desde URL
 
 import java.util.List;
 
@@ -47,15 +50,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
      */
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView codigoTextView, nombreTextView, descripcionTextView, precioTextView;
+        TextView codigoTextView, nombreTextView, precioTextView;
+        ImageView imagenImageView; // Cambia el nombre a imagenImageView
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             // Inicializar vistas dentro de ViewHolder
             codigoTextView = itemView.findViewById(R.id.codigoTextView);
             nombreTextView = itemView.findViewById(R.id.nombreTextView);
-            descripcionTextView = itemView.findViewById(R.id.descripcionTextView);
             precioTextView = itemView.findViewById(R.id.precioTextView);
+            imagenImageView = itemView.findViewById(R.id.descripcionTextView); // Cambia la referencia a ImageView
         }
 
         /**
@@ -67,8 +71,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 // Mostrar los datos del producto en las vistas correspondientes
                 codigoTextView.setText(String.valueOf(producto.getCodigo()));
                 nombreTextView.setText(producto.getNombre());
-                descripcionTextView.setText(producto.getDescripcion());
                 precioTextView.setText(String.valueOf(producto.getPrecio()));
+
+                // Cargar imagen desde la URL usando Picasso
+                Picasso.get().load(producto.getDescripcion()).into(imagenImageView);
             }
         }
     }

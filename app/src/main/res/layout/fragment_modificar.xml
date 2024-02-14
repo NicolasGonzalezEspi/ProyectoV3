@@ -52,7 +52,7 @@
         android:id="@+id/editTextDescripcion"
         android:layout_width="375dp"
         android:layout_height="41dp"
-        android:hint="Ingrese la nueva descripción del producto"
+        android:hint="Ingrese la URL de la Imagen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955974123852",
+    "project_id": "whatthegame-22a55",
+    "storage_bucket": "whatthegame-22a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955974123852:android:84b0d57757dc7d47be8fe9",
+        "android_client_info": {
+          "package_name": "com.vedruna.gonzalezespinosa01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955974123852-40rq639i5rnqn1kcgrgnieu7vtf1sgp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW1UU3mjODMAch-YbyQm6_RLsHAafKFqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955974123852-40rq639i5rnqn1kcgrgnieu7vtf1sgp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
