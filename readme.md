@@ -30,6 +30,31 @@ Las imágenes reflejan un diseño intuitivo y una experiencia de usuario amigabl
 Cualquier persona puede usarlo sin necesidad de explicación previa. 
 
 
+Este proyecto fue realizado para la API 34, soporta el SDK 34, y, según he visto, se puede usar el pretérito SDK 22 "minSdkVersion: 22".
+
+Las dependencias principales:
+
+androidx.appcompat:appcompat:1.6.1 Esto hace compatible mi aplicación con las características más recientes de Android.
+
+androidx.compose.ui:ui Permite Interfaces de usuarios declarativas y componibles
+
+com.google.android.material:material:1.10.0 Componentes de material design para android
+
+
+Los implement principales: 
+
+implementation ("com.squareup.picasso:picasso:2.8") permite la inserción sencilla de fotos.
+
+implementation("androidx.navigation:navigation-fragment-ktx:2.7.6") también la compatibilidad con distintos fragment
+
+implementation("com.google.android.material:material:1.10.0")
+
+
+
+En este proyecto, se utiliza SQLite como base de datos local para almacenar y gestionar la información relacionada con los productos. SQLite es una base de datos ligera y ampliamente utilizada en aplicaciones móviles Android debido a su integración directa en el sistema operativo y su capacidad para manejar bases de datos locales de manera eficiente. En este contexto, se emplea SQLite junto con la clase AdminSQliteOpenHelper para crear, abrir y administrar la base de datos, así como para ejecutar consultas SQL para realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en la tabla de productos. Esta integración con SQLite permite que la aplicación almacene y acceda a la información de los productos de manera eficiente, proporcionando una experiencia fluida y rápida para el usuario.
+
+
+
 
 
 

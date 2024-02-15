@@ -3,6 +3,7 @@ package com.vedruna.gonzalezespinosa01;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,6 +30,7 @@ public class SalirFragment extends AppCompatActivity {
         setContentView(R.layout.fragment_salir);
 
         Button salirButton = findViewById(R.id.salir);
+
 
 
         salirButton.setOnClickListener(new View.OnClickListener() {

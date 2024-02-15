@@ -108,6 +108,7 @@ public class LoginActivity extends AppCompatActivity {
         if (credencialesCorrectas) {
             nombreEditText.setText("");
             contrasenaEditText.setText("");
+            Toast.makeText(this, "Inicio de sesión aprobado", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         } else {
